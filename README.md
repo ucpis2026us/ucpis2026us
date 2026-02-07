@@ -1,95 +1,97 @@
 # Universal Cyber-Physical Interoperability Stack (UCPIS)
 
-An independent, long-horizon architecture project focused on interoperable, autonomous cyber-physical infrastructure.
+Public architecture and doctrine for interoperable, autonomous cyber-physical infrastructure.
 
 ---
 
-## What This Is
+## Program Leadership
 
-The **Universal Cyber-Physical Interoperability Stack (UCPIS)** is an open architectural framework for building autonomous, interoperable production systems — where computation, logistics, control, governance, and physical manufacturing collapse into a single coherent system.
+**Michael James Malecek**  
+Inventor, Program Lead & Maintainer  
+Delano, Minnesota, United States
 
-UCPIS is not a product.  
-It is not an application.  
-It is a systems-level doctrine describing how future factories, robots, and industrial networks coordinate safely, transparently, and without vendor lock-in.
+---
+
+I design long-horizon systems describing how computation, machines, operators, and governance coordinate when infrastructure becomes programmable.
+
+UCPIS is the primary vehicle for this work.
+
+---
+
+## About UCPIS
+
+UCPIS defines shared primitives for:
+
+- robotics  
+- manufacturing  
+- logistics  
+- control  
+- safety  
+- authority  
+- observability  
+
+It is not a company, product, or platform.
+
+It is systems doctrine for constructing industrial capability that remains legible, governable, and interoperable across vendors, jurisdictions, and generations.
 
 ---
 
 ## Why It Exists
 
-Modern industry is fragmented:
+Modern industrial systems are fragmented.
 
-- Machines lack shared semantic and control primitives  
-- Industrial control systems are brittle, opaque, and siloed  
-- Automation scales faster than governance, safety, and accountability  
+- Interfaces are proprietary  
+- Machines lack shared semantics  
+- Integration cost slows deployment  
+- Governance and auditability lag automation  
 
-UCPIS exists to define **shared primitives** — technical, semantic, and organizational — so autonomous production can scale without becoming unsafe, ungovernable, or extractive.
+Without common primitives, autonomy scales faster than coordination.
 
----
-
-## Active Work
-
-Current focus areas include:
-
-- Core UCPIS architecture and versioned specifications  
-- Minimum Viable UCPIS-Executable (MVUE) definitions  
-- Cyber-physical governance and safety envelopes  
-- Open interfaces for robots, factories, and control systems  
-- Design and aesthetic doctrine for cyber-physical environments  
-
-This work is intentionally slow, foundational, and infrastructure-oriented.
+UCPIS exists to provide a stable foundation for cooperation across organizations and technologies.
 
 ---
 
-## Key Repositories
+## Repository Topology
 
-- **UCPIS (Core)**  
-  Foundational architecture, primitives, and normative doctrine  
-  → https://github.com/ucpis2026us/ucpis
+### UCPIS (Core)  
+Canonical layered architecture and normative definitions.  
+https://github.com/ucpis2026us/ucpis
 
-- **Cyber-Physical Aesthetic Stack**  
-  Visual language, signaling, and hazard communication for autonomous systems  
-  → https://github.com/ucpis2026us/cyber-physical-aesthetic-stack
+### Cyber-Physical Aesthetic Stack  
+Visual language, environmental signaling, and hazard semantics for autonomous environments.  
+https://github.com/ucpis2026us/cyber-physical-aesthetic-stack
 
-*(Additional repositories will be added as interfaces and specifications stabilize.)*
+### Canonical Resource Addressing  
+Foundations for how entities, capabilities, and locations become referenceable across systems.  
+https://github.com/ucpis2026us/Canonical-Resource-Addressing
 
----
+### Embodied Mediation Layer  
+Where physical execution, authority, and machine action meet.  
+https://github.com/ucpis2026us/embodied-mediation-layer
 
-## Design Philosophy
-
-- Systems > applications  
-- Interoperability over optimization  
-- Governance as an observable system property  
-- Open primitives instead of proprietary stacks  
-- Industrial autonomy without centralized control  
-
-UCPIS treats factories, robots, and control software as **civic-scale infrastructure**, not merely private tools or products.
+Additional repositories will appear as abstractions stabilize.
 
 ---
 
-## Project Status
+## Design Orientation
 
-UCPIS is:
-
-- Early-stage but conceptually mature  
-- Publicly documented and actively evolving  
-- Not seeking hype, tokens, or speculative funding  
-- Designed for long-term relevance (10–30 year horizon)  
-
-Contribution pathways may open later once core interfaces stabilize.
+- Infrastructure over applications  
+- Durable primitives  
+- Clarity before scale  
+- Independence from hype cycles  
+- Systems that must outlive their creators  
 
 ---
 
-## Provenance
+## Maturity
 
-UCPIS is an independent cyber-physical architecture project initiated in 2026 by its inventor and current maintainer.
-
-- **Inventor:** Michael James Malecek  
-- **Year:** 2026  
-- **Location:** Delano, Minnesota, United States
+Early in build.  
+Advanced in direction.
 
 ---
 
-## Signal
+## For Observers
 
-This work is public by design.  
-Serious readers and observers are encouraged to follow the repositories as they evolve.
+Those working in robotics, industrial automation, logistics, public infrastructure, or machine governance are seeing early groundwork.
+
+Follow the repositories as the abstractions solidify.
